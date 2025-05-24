@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techy</title>
+    <link rel="stylesheet" href="../css/uiNbg.css">
+    <script>
+        setTimeout(function() {
+          window.location.href = "techy.html";
+        }, 7000);
+      </script>
+</head>
+<body>
+
+<nav class="navi">
+    <div class="div1">
+        <div class="logo"><a href="Home page.html">
+               KODARIS </a>
+        </div>
+      <ul>
+       <li><a href="ourprojects.html">Our Projects</a></li>
+       <li><a href="techy.html">Techy</a></li>
+       <li><a href="Aboutus.html">About us</a></li>
+      </ul>        
+    </div>
+</nav>
+
+<div style="
+    display: block;
+    margin-top: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: bisque;border: solid 20px bisque;
+    ">
+        <video autoplay loop muted onloadedmetadata="this.playbackRate=3.2">
+            <source src="../Vid&Img/techvid.mp4" type="video/mp4">
+        </video>
+        <h2 id="load">LOADING...</h2>
+</div>
+
+<script>
+  const loadingText = document.getElementById("load");
+  let dotCount = 0;
+
+  setInterval(() => {
+    dotCount = (dotCount + 1) % 4;
+    loadingText.textContent = "LOADING" + ".".repeat(dotCount);
+  }, 500);
+</script>
+
+</body>
+</html>

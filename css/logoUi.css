@@ -1,0 +1,39 @@
+body{
+    background:linear-gradient(rgb(97, 83, 83),grey,white);
+    background-size: cover;background-attachment: fixed;
+}
+nav{
+    position: fixed;top: 2px;left: 2px;z-index: 10;
+}
+.navi{
+    background:goldenrod;background-image:linear-gradient(to right, #ff6a00, #ee0979);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 5px;padding-left: 5px;
+    border-radius: 4px;border-left: solid sandybrown;
+}
+.div1{
+    display:flex; align-items: center; justify-content: space-between; 
+}
+.logo{
+    font-size: 36px; font-weight: bold;
+    font-family: 'Poppins', sans-serif;color: white;
+    text-decoration: none;padding: 10px 20px;
+    text-shadow: 3px 3px 0 pink,
+                  6px 6px 0 blue;
+  }
+.logo:hover{
+  color: rgb(70, 62, 62);
+  text-shadow: 
+  1px 1px 0 #ffc400,
+  2px 2px 0 #ffc400,
+  3px 3px 0 #ffc400;
+}
+.corbt{
+    padding: 15px 20px;
+    font-size: 16px;color: blanchedalmond;background-color: yellowgreen;border-radius: 1000px;
+    display: inline-block;border-top: solid goldenrod;
+    position: fixed;bottom: 25px;right: 15px;
+}
+.corbt:hover{
+    background-color: gold;
+}

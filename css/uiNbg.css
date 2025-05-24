@@ -1,0 +1,80 @@
+body{
+    background:linear-gradient(rgb(97, 83, 83),grey,white);
+    background-size: cover;background-attachment: fixed;
+}
+*{
+    text-decoration:none
+}
+nav{
+    position: sticky;top: 0px;
+}
+nav a{
+    float: left;display: block;padding: 5px;
+}
+.navi{
+    background:goldenrod;background-image:linear-gradient(to right, #ff6a00, #ee0979);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 5px;padding-left: 5px;
+    border-radius: 4px;border-left: solid sandybrown;
+}
+.div1{
+    display:flex; align-items: center; justify-content: space-between; 
+}
+.logo a {
+    font-size: 36px; font-weight: bold;
+    font-family: 'Poppins', sans-serif;color: white;
+    text-decoration: none;padding: 10px 20px;
+    text-shadow: 3px 3px 0 pink,
+                  6px 6px 0 blue;
+  }
+.logo a:hover{
+  color: rgb(70, 62, 62);
+  text-shadow: 
+  1px 1px 0 #ffc400,
+  2px 2px 0 #ffc400,
+  3px 3px 0 #ffc400;
+}
+li{
+    list-style-type: type none;display: inline-block;
+}
+li a{
+    color:rgb(12, 204, 238);font-size: 20px; ;font-weight:bold ;margin-right:25px;
+    text-shadow: 1px 1px 1px white;
+}
+.corbt{
+    padding: 15px 20px;
+    font-size: 16px;color: blanchedalmond;background-color: yellowgreen;border-radius: 1000px;
+    display: inline-block;border-top: solid goldenrod;
+    position: fixed;bottom: 25px;right: 15px;
+}
+.corbt:hover{
+    background-color: gold;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgb(244, 247, 105);
+    padding: 20px;
+    border-top: solid goldenrod 5px;
+    border-left: solid goldenrod 5px;
+}
+
+.but {
+    font-weight: bold;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: aqua;
+    display: block;
+    margin: 10px 0; /* Adds space between vertical buttons */
+    width: 150px; /* Optional: consistent width */
+}
+
+.but:hover {
+    background-color: aliceblue;
+    cursor: crosshair;
+}

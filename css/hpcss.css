@@ -1,0 +1,205 @@
+body{
+    background: linear-gradient(135deg, #6B7280, #60A5FA);
+    margin: 0px;
+}
+#wel{
+    text-align: left;padding-left: 13cm;
+    color: aquamarine;
+    background-color: #ffd23f;
+    border-top:solid #ff6a00;
+    text-shadow: 2px 2px 0 rgb(155, 22, 44),
+    4px 4px 0 rgb(124, 124, 204);
+    margin: 0;
+    
+}
+#kod{
+    text-align: right;padding-right: 14cm;
+    color: rgb(99, 250, 200);
+    background-color: #ffc400;
+    border-bottom: solid #ff6a00;
+    text-shadow: 2px 2px 0 rgb(226, 21, 55),
+    4px 4px 0 rgb(60, 60, 226);
+    text-decoration: wavy;
+    margin: 0;
+}
+*{
+    text-decoration:none
+}
+nav{
+    position: sticky;top: 0px;z-index: 10;
+}
+nav a{
+    float: left;display: block;padding: 5px;
+}
+.navi{
+    background:goldenrod;background-image:linear-gradient(to right, #ff6a00, #ee0979);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 5px;padding-left: 5px;
+    border-radius: 4px;border-left: solid sandybrown 5px;
+    margin-bottom: 20px;
+}
+.div1{
+    display:flex; align-items: center; justify-content: space-between; 
+}
+.logo a {
+      font-size: 36px; font-weight: bold;
+      font-family: 'Poppins', sans-serif;color: white;
+      text-decoration: none;padding: 10px 20px;
+      text-shadow: 3px 3px 0 pink,
+                    6px 6px 0 blue;
+    }
+.logo a:hover{
+    color: rgb(70, 62, 62);
+    text-shadow: 
+    1px 1px 0 #ffc400,
+    2px 2px 0 #ffc400,
+    3px 3px 0 #ffc400;
+}
+li{
+    list-style-type: type none;display: inline-block;
+}
+li a{
+    color:rgb(12, 204, 238);font-size: 20px; ;font-weight:bold ;margin-right:25px;
+    text-shadow: 1px 1px 1px white;
+}
+button{
+    background-color: rgb(224, 190, 224);margin-left: 10x;padding: 10px;border-radius: 15px;width: 75px;
+}
+button a{
+    color:green;font-size:15 ;font-weight:bold ;margin: right 15px;px;
+}
+marquee{
+   background-color: rgba(255, 255, 157, 0.5);
+   border: 2px solid rgba(0, 0, 0, 0.15);
+   border-radius: 1cm;
+   padding: 12px;
+   margin-top: 1.5cm;
+   margin-bottom: 1.25cm;
+}
+marquee img{
+  border-radius: 10px;
+  border-right: rgba(248, 77, 34, 0.829) solid;
+  margin-right: 22px;
+}
+.drdn{
+    padding: 15px 20px;
+    font-size: 16px;color: blanchedalmond;background-color: rgb(205, 99, 50);border-radius: 1000px;
+    display: inline-block;border-top: solid goldenrod;
+    position: fixed;bottom: 25px;right: 15px;
+}
+#ftbx {
+  margin: auto;
+  border: solid 5px #403c3c;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(#f4c900,#403232);
+}
+
+#fth h2 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+
+#fth p {
+  font-size: 0.9em;
+  color: #222;
+}
+
+#ftct {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+#ftct .left p,
+#ftct .right ul {
+  margin: 8px 0;
+}
+
+#ftct .right ul {
+  list-style: none;
+  padding: 0;
+}
+
+#ftct .right ul li {
+  margin-bottom: 5px;
+}
+
+#ftb {
+  border-top: 1px dashed #000;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#ftb .social span {
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+#ftb a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+#slimg{
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: slideshow 20s infinite;
+  border-bottom: #f4c900 solid 7px;
+  border-radius: 3px;
+}
+
+#sltext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 4px #000;
+}
+
+@keyframes slideshow {
+  0% {
+    background-image: url("../scenary/S7.jpg");
+  }
+  33% {
+    background-image: url("../scenary/S8.jpg");
+  }
+  66% {
+    background-image: url("../scenary/S9.jpg");
+  }
+  100% {
+    background-image: url("../scenary/S7.jpg");
+  }
+}
+.suug{
+  background: rgba(192, 192, 192, 0.3);
+  border-radius: 12px;
+  padding: 15px;
+  border-top: whitesmoke solid;
+  margin-bottom: 7px;
+}
+.suug img{
+  border-radius: 10px;
+  border-bottom: solid goldenrod;
+}
+.tex{
+float: right;
+font-size: 22px;
+font-style: italic;
+font-weight: bold;
+margin-right: 2cm;
+}
+.tex a{
+background: wheat;
+border-radius: 9px;
+border: solid pink;
+font: bold;
+font-size: medium;
+padding: 7px;
+color: #000;
+}
