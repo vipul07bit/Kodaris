@@ -1,126 +1,196 @@
-﻿<!DOCTYPE html>
- <html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Card Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
         body {
-            background-color: yellow;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
-  
-
- .line1 {
-           color: #2F4F4F; /* Dark Slate Gray */   font-size: 32px    }
-     
-   .line2 {
-             color: #191970; /* Midnight Blue */
-        }
-    
-    .line3 {
-            color: #556B2F; /* Dark Olive Green */  font-size: 28px  }
-       
- .line4 {
-            color:black   font-size: 28px      }
- .line5 {
-                  color: #8B4513; /* Saddle Brown */    }
         
-.line6 {
-           color: #DC143C; /* Crimson */      }
-       
- .line7 {
-             color: #8B0000; /* Dark Red */    }
-        
-.line8{
-              color: #9932CC; /* Dark Orchid */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
         }
-.line9{
-               color: #008080; /* Teal */     font-size: 46px }
-  </style>
-
+        
+        .card {
+            width: 350px;
+            height: 450px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-1 {
+            background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+        }
+        
+        .card-2 {
+            background: linear-gradient(45deg, #a1c4fd 0%, #c2e9fb 100%);
+        }
+        
+        .card-content {
+            padding: 30px;
+            color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .card-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .card-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .card-description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .card-button {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            padding: 15px 0;
+            text-align: center;
+            background-color: white;
+            color: #333;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-1 .card-button {
+            background-color: #fff;
+            color: #ff9a9e;
+        }
+        
+        .card-2 .card-button {
+            background-color: #fff;
+            color: #a1c4fd;
+        }
+        
+        .card-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-button:active {
+            transform: translateY(0);
+        }
+        
+        .decoration {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .decoration-1 {
+            width: 100px;
+            height: 100px;
+            top: -30px;
+            right: -30px;
+        }
+        
+        .decoration-2 {
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            left: -20px;
+        }
+        
+        .decoration-3 {
+            width: 80px;
+            height: 80px;
+            bottom: -40px;
+            right: -20px;
+        }
+    </style>
 </head>
- <body > 
-<p class="line9">KY HAL HE
-  </p>
-<h2>BHAI LOOG
-<br><br>
-<p class="line1">COMEDY:
-
-<form action="https://youtu.be/4RsBl8dv7Bk?feature=shared" method="get">
-    <input type="submit" value="...com">
-</form>
-
-  </p>
-<p class="line2">INFO: 
-
-<form action="https://youtu.be/BUSx_nf8TYM?feature=shared" method="get">
-    <input type="submit" value="AloKIk BhuDhi">
-</form>
-
-</p>
-<p class="line3">GAMES: 
-
-<form action="https://www.chess.com/play/computer" method="get">
-    <input type="submit" value="LETs PLAY">
-</form><br>
-<form action="https://searchplayground.google
-/paris-2024/?utm_source=doodle&utm_medium=google_oo&utm_campaign=all&gsas
-=1&sa=X&ved=0ahUKEwj5lofgzJqIAxUhyzgGHZ-WGzIQPQgN" method="get">
-    <input type="submit" value="FIND OLYMPICS">
-</form>
-
- </p> 
-<p class="line4">TECH:
-
-<form action="https://youtu.be/io6XSPw6ZRU?feature=shared" method="get">
-    <input type="submit" value="Click">
-</form>
-
-</p>
-
-
-
- </p>
-<p class="line6"> <br>ANOKHI SHAKTI YA SE LE:
-
-<form action=" https://youtu.be/pESPMUasu-w?feature=shared " method="get">
-    <input type="submit" value="UltiMate SHaKti">
-</form>
-
- </p>
-
-<p class="line7">SCAN AND GET 5$:
-
-<form action="https://youtube.com/shorts/A5x5rFVus0g?feature=shared" method="get">
-    <input type="submit" value="OnlY on PaYTm">
-</form>
-
-</p>
+<body>
+    <div class="container">
  
-<br>
-<br>
-<br>
-<br>
-<img src="google.com" 
-alt="Description of Image" width="500">
-<br>
-<br>
+        <div class="card card-1">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+            <div class="card-content">
+                <div>
+                    <div class="card-icon">🌍</div>
+                    <h2 class="card-title">Chess</h2>
+                    <p class="card-description">
+                     Play Chess For Free with friends And Online players or Computer.
+                    </p>
+                </div>
+                <a href="https://www.chess.com/play/computer?" target="_blank" class="card-button">Play Chess</a>
+            </div>
+        </div>
+      
+        <div class="card card-2">
+            <div class="decoration decoration-3">🚀</div>
+            <div class="card-content">
+                <div>
+                    <div class="card-icon">🚀</div>
+                    <h2 class="card-title">Find Things</h2>
+                    <p class="card-description">
+                        Play Google free puzzzle games. 
+                    </p>
+                </div>
+                <a href="https://searchplayground.google/paris-2024/?" target="_blank" class="card-button">Play Game</a>
+            </div>
+        </div>
 
-
-<br><br><br>
-<form action="https://youtu.be/xSRMwwm9vlQ?feature=shared" method="get">
-<input type="image" src="C:\Users\VEDU\Downloads\own.jpeg"
- alt="click here to submit" width="520" height="280">
-<br>
-</form>
-<h1>Image mapping of burger</h1>
-<img src="../Vid&Img/burger.jpg" usemap="#imagemap" alt="Image of burger"> 
-<map name="imagemap">
- <area href="https://www.bk.com/" shape="rect" coords="492,153,720,450" alt="BK.com"/>
- <area href="https://en.wikipedia.org/wiki/Ketchup" shape="circle" coords="298,384 ,100" alt="ketchup"/> 
-<area href="https://www.zomato.com/mumbai/b-burger-bigger-burger-d
-                                adar-east/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6ey
-                                J0aXRsZSI6IkJlc3QgaW4gRnJpZXMiLCJkaXNo
-                               X2lkcyI6WyI0NjE1NSJdLCJjdWlzaW
-                             5lX2lkcyI6W119fQ%3D%3D" 
-          shape="poly"coords ="90,330,430,330395,200,270,170,165,215" alt="freisorder"/>
-
-</body> 
+             <div class="card card-1">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+            <div class="card-content">
+                <div>
+                    <div class="card-icon">🌍</div>
+                    <h2 class="card-title">Subway Suffer</h2>
+                    <p class="card-description">
+                     Play Subway Suffer for free Without Downloading it.
+                    </p>
+                </div>
+                <a href="https://poki.com/en/g/subway-surfers" target="_blank" class="card-button">Play SubwaySuffer</a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
