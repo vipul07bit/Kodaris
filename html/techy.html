@@ -1,204 +1,754 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Techy</title>
-    <link rel="stylesheet" href="../css/logoUi.css">
+    <link rel="stylesheet" href="../css/logoUi.css" />
     <style type="text/css">
-        .line {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 16px;
-        }
-        .sq {
-            margin-bottom: 16px;
-            width: 30%;
-            position: relative;
-        }
-        .sq:after {
-            padding-top: 100%;
-            display: block;
-            content: "";
-        }
-        .data {
-            position: absolute;
-            top: 0; bottom: 0; right: 0; left: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border: solid 2px red;
-            font-size: 20px;
-            background: pink;
-            border-radius: 20px;
-            padding: 10px;
-            overflow: hidden;
-            text-align: center;
-        }
-        .data img {
-            height: auto;
-            border-radius: 10px;
-        }
-        .data details {
-            font-size: 22px;
-            margin-top: 10px;
-            color: blue;
-            border: solid black 2px;
-            background-color: white;
-            padding: 7px;
-            
-        }
-        .data p {
-            font-size: 14px;
-            margin-top: 10px;
-            color: rgb(255, 0, 64);
-            border: solid rgba(0, 0, 0, 0.795) 2px;
-            background-color: wheat;
-            border-radius: 12px;
-        }
-    </style>
-</head>
-<body>
+      .line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+      }
+      .sq {
+        margin-bottom: 16px;
+        width: 30%;
+        position: relative;
+      }
+      .sq:after {
+        padding-top: 100%;
+        display: block;
+        content: "";
+      }
+      .data {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px red;
+        font-size: 20px;
+        background: pink;
+        border-radius: 20px;
+        padding: 10px;
+        overflow: hidden;
+        text-align: center;
+      }
+      .data img {
+        height: auto;
+        border-radius: 10px;
+      }
+      .data details {
+        font-size: 22px;
+        margin-top: 10px;
+        color: blue;
+        border: solid black 2px;
+        background-color: white;
+        padding: 7px;
+      }
+      .data p {
+        font-size: 14px;
+        margin-top: 10px;
+        color: rgb(255, 0, 64);
+        border: solid rgba(0, 0, 0, 0.795) 2px;
+        background-color: wheat;
+        border-radius: 12px;
+      }
+      .sq {
+        width: 300px;
+        padding: 10px;
+      }
 
+      .data img {
+        width: 100%;
+        height: 120px;
+        object-fit: contain; /* better for logos */
+        padding: 10px;
+        background: white;
+      }
+    </style>
+  </head>
+  <body>
     <nav class="navi">
-        <div class="div1">
-            <div class="logo">
-               KODARIS
-            </div>
-        </div>
+      <div class="div1">
+        <div class="logo">KODARIS</div>
+      </div>
     </nav>
 
     <div class="line">
-        <div class="sq">
-            <div class="data">
-                <img src="https://www.fileeagle.com/data/2016/02/SoundWire.png" width="280">
-                <details>
-                  <summary>SoundWire</summary>
-                <p>It is a open source platform that provide bluetooth conectivity to headphones,P.C,etc.
-                   Through same wifi connectivity on phone and needed device.
-                   Just download on your phone and needed device.</p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <img
+            src="https://www.fileeagle.com/data/2016/02/SoundWire.png"
+            width="280"
+          />
+          <details>
+            <summary>SoundWire</summary>
+            <p>
+              It is a open source platform that provide bluetooth conectivity to
+              headphones,P.C,etc. Through same wifi connectivity on phone and
+              needed device. Just download on your phone and needed device.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <img src="https://images.sftcdn.net/images/t_app-icon-m/p/65f42134-96d1-11e6-87df-00163ed833e7/3526594866/droidcam-Download-DroidCam.jpg" width="245">
-                <details>
-                    <summary>DroidCam</summary>
-                <p>DroidCam - Use your phone as a webcam.It is free and easy to use supports a range upto wifi conectivity.</p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <img
+            src="https://images.sftcdn.net/images/t_app-icon-m/p/65f42134-96d1-11e6-87df-00163ed833e7/3526594866/droidcam-Download-DroidCam.jpg"
+            width="245"
+          />
+          <details>
+            <summary>DroidCam</summary>
+            <p>
+              DroidCam - Use your phone as a webcam.It is free and easy to use
+              supports a range upto wifi conectivity.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <a href="https://www.oldmapsonline.org/en">
-                    <img src="https://cdn.slidesharecdn.com/ss_thumbnails/london-british-library-oldmapsonline-120601082525-phpapp01-thumbnail.jpg?width=560&fit=bounds" width="290">
-                </a>
-                <details>
-                    <summary>Old Maps Online</summary>
-                    <p>Old Maps Online - Historical maps from around the world.
-                       It has many features and timelines of world map.You can veiw by Just click on that image.</p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.oldmapsonline.org/en" target="_blank">
+            <img
+              src="https://cdn.slidesharecdn.com/ss_thumbnails/london-british-library-oldmapsonline-120601082525-phpapp01-thumbnail.jpg?width=560&fit=bounds"
+              width="290"
+            />
+          </a>
+          <details>
+            <summary>Old Maps Online</summary>
+            <p>
+              Old Maps Online - Historical maps from around the world. It has
+              many features and timelines of world map.You can veiw by Just
+              click on that image.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <a href="https://www.geo-fs.com/">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFufH4Etai3tvIlFret8tKZFBevMlS1hw0Eg&s">
-                </a>
-                <details>
-                    <summary>Geo-FS</summary>
-                <p>Geo-FS - Online flight simulator.It is a online browser game that provides 
-                   you a real world map to fly with many models of planes.To visit click on image.</p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.geo-fs.com/" target="_blank">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFufH4Etai3tvIlFret8tKZFBevMlS1hw0Eg&s"
+            />
+          </a>
+          <details>
+            <summary>Geo-FS</summary>
+            <p>
+              Geo-FS - Online flight simulator.It is a online browser game that
+              provides you a real world map to fly with many models of planes.To
+              visit click on image.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChBR__PAqSuFxZg-cj7wjyMcbDX4JDgZZKodWFU_cDe77eUvcCZKj5m1t_Picg06oBAI&usqp=CAU">
-                <details>
-                    <summary>BRIAR</summary>
-                    <P>Briar - It is like hawky talky with messaging and calling feature,You can talk without data and recharge.
-                       By just bluetooth and hotspot connectivity of others,but works only in your mobile range area.
-                    </P>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChBR__PAqSuFxZg-cj7wjyMcbDX4JDgZZKodWFU_cDe77eUvcCZKj5m1t_Picg06oBAI&usqp=CAU"
+          />
+          <details>
+            <summary>BRIAR</summary>
+            <p>
+              Briar - It is like hawky talky with messaging and calling
+              feature,You can talk without data and recharge. By just bluetooth
+              and hotspot connectivity of others,but works only in your mobile
+              range area.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <a href="https://wormhole.app/">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0BlLwaCOA2AmOFuMmKMcnh922o-pXghCko_EQWslrU8WobWsigLINVUSKELPTeJ16fg&usqp=CAU">
-                </a>
-                <details>
-                    <summary>Wormhole</summary>
-                <p>Wormhole - Secure file sharing.Share any file for free with size upto Gb's by just uploading 
-                   on it and sharing a link with others to download.It is end to end encrypted click on image to visit.  
-                </p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <a href="https://wormhole.app/" target="_blank">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0BlLwaCOA2AmOFuMmKMcnh922o-pXghCko_EQWslrU8WobWsigLINVUSKELPTeJ16fg&usqp=CAU"
+            />
+          </a>
+          <details>
+            <summary>Wormhole</summary>
+            <p>
+              Wormhole - Secure file sharing.Share any file for free with size
+              upto 10 Gb's by just uploading on it and sharing a link with
+              others to download.It is end to end encrypted click on image to
+              visit.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <a href="https://www.supercook.com/#/desktop">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFfrJE4VvCW8fRVQx-miKjQL5C3hDbG43wQ&s">
-                </a>
-                <details>
-                    <summary>SuperCook</summary>
-                    <p>SuperCook - Recipes using ingredients you have.
-                       It is like heaven for women it help to find best and yumm Recipes from foodstuff you have remain.
-                       Click on image to veiw. </p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.supercook.com/#/desktop" target="_blank">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFfrJE4VvCW8fRVQx-miKjQL5C3hDbG43wQ&s"
+            />
+          </a>
+          <details>
+            <summary>SuperCook</summary>
+            <p>
+              SuperCook - Recipes using ingredients you have. It is like heaven
+              for women it help to find best and yumm Recipes from foodstuff you
+              have remain. Click on image to veiw.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSbVLRIVyS4roPm2q326TX9SPDtxr6YzEjw&s">
-                <details>
-                    <summary>Google Earth Pro</summary>
-                <p>Google Earth Pro - It has lots of feature like 3d map,Areia shot or flight simulator(ctrl+alt+A) and much more.
-                   Just download it you can also shoot drone shot and visit any place in 3d.    
-                </p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkSbVLRIVyS4roPm2q326TX9SPDtxr6YzEjw&s"
+          />
+          <details>
+            <summary>Google Earth Pro</summary>
+            <p>
+              Google Earth Pro - It has lots of feature like 3d map,Areia shot
+              or flight simulator(ctrl+alt+A) and much more. Just download it
+              you can also shoot drone shot and visit any place in 3d.
+            </p>
+          </details>
         </div>
+      </div>
 
-        <div class="sq">
-            <div class="data">
-                <a href="https://alternativeto.net/"><img src="https://consumersiteimages.trustpilot.net/business-units/49f0f29e0000640005043c8e-198x149-1x.jpg">
-                </a>
-                <details>
-                    <summary>ALTERNATIVETO</summary>
-                    <p>
-                        ALTERNATIVETO - It is a website that tells you alternative app/website for anything you need.Click on image to veiw. 
-                    </p>
-                </details>
-            </div>
+      <div class="sq">
+        <div class="data">
+          <a href="https://alternativeto.net/" target="_blank"
+            ><img
+              src="https://consumersiteimages.trustpilot.net/business-units/49f0f29e0000640005043c8e-198x149-1x.jpg"
+            />
+          </a>
+          <details>
+            <summary>ALTERNATIVETO</summary>
+            <p>
+              ALTERNATIVETO - It is a website that tells you alternative
+              app/website for anything you need.Click on image to veiw.
+            </p>
+          </details>
         </div>
-        <div class="sq">
-            <div class="data">
-                <a href="https://y2mate.nu/add-on/">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-AP90pmkX1amG_U8BvnxKiSV3aQ2cgbx0ww&s">
-                </a>
-                <details>
-                    <summary>Y2Mate</summary>
-                <p>
-             Y2Mate - It is a free MP3 and MP4 Downloader by there 'URL' only.Download from all platforms or use 
-          <a href="https://snapsave.app/"> Snapsave </a> 
-             for Download content from social media.
-                </p>
-                </details>
-            </div>
+      </div>
+      <div class="sq">
+        <div class="data">
+          <a href="https://y2mate.nu/add-on/" target="_blank">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-AP90pmkX1amG_U8BvnxKiSV3aQ2cgbx0ww&s"
+            />
+          </a>
+          <details>
+            <summary>Y2Mate</summary>
+            <p>
+              Y2Mate - It is a free MP3 and MP4 Downloader by there 'URL'
+              only.Download from all platforms or use
+              <a href="https://snapsave.app/"> Snapsave </a>
+              for Download content from social media.
+            </p>
+          </details>
         </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="todolist.html" target="_blank">
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/ScV86zVws5qDnowbP7KsWA.jpg"
+              width="250"
+            />
+          </a>
+          <details>
+            <summary>Laptop Checking</summary>
+            <p>
+              This is a Basic ToDo List Made by ME.This features laptop Checking
+              list.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://fromsmash.com/"
+            ><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuRDiYSjI-3b5QneRQYuEBesbUEptVOyoKQ&s"
+            />
+          </a>
+          <details>
+            <summary>Samsh</summary>
+            <p>
+              Secure file sharing.Share any file for free with size upto 200
+              Gb's by just uploading on it and sharing a link with others to
+              download.It is end to end encrypted click on image to visit.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://codepen.io/"
+            ><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpLVNA_-jcpHqkD8_SIVsAtTZrPgQv62RdrA&s"
+            />
+          </a>
+          <details>
+            <summary>Code Pen</summary>
+            <p>An amazing and intersting website for coders.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://thepatternsite.com/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPmbcXaI3LeU8burAEme_Aa635KcRfnkNPqA&s"
+            />
+          </a>
+          <details>
+            <summary>Pattern Site</summary>
+            <p>
+              This is an amazing website for traders which have candle stick
+              patern and charts.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.virustotal.com/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqC1zs6xV8YReJ8DWwvdTHqTnm0DumxF7-Iw&s"
+            />
+          </a>
+          <details>
+            <summary>Virus Total</summary>
+            <p>
+              This website is very useful when your are downloading anything
+              from web,It provide safty by scaning url,document,etc.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://ytplaylist-len.sharats.dev/">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8HiX5qGgwZEzRMiFQzfL6RiMxPA6Jp85wZw&s"
+            />
+          </a>
+          <details>
+            <summary>Youtube playlist Length</summary>
+            <p>
+              This website is very useful for checking YT playlist lenght,it
+              also provide time at diiferent speed.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <!-- START: ALL RESOURCE CARDS -->
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://github.com/obra/superpowers">
+            <img src="https://opengraph.githubassets.com/1/obra/superpowers" />
+          </a>
+          <details>
+            <summary>Superpowers (AI Toolkit)</summary>
+            <p>
+              Powerful AI tools and tricks to boost productivity and automate
+              workflows.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://github.com/thedotmack/claude-mem">
+            <img
+              src="https://opengraph.githubassets.com/1/thedotmack/claude-mem"
+            />
+          </a>
+          <details>
+            <summary>Claude Memory System</summary>
+            <p>
+              Adds memory to AI conversations for better context and smarter
+              outputs.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://github.com/hesreallyhim/awesome-claude-code">
+            <img
+              src="https://opengraph.githubassets.com/1/hesreallyhim/awesome-claude-code"
+            />
+          </a>
+          <details>
+            <summary>Awesome Claude Code</summary>
+            <p>Collection of tools and prompts to improve coding using AI.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">
+            <img
+              src="https://media.geeksforgeeks.org/wp-content/uploads/20230209175403/Different-Between-UI-and-UX.png"
+            />
+          </a>
+          <details>
+            <summary>UI/UX Pro Guide</summary>
+            <p>
+              Complete roadmap to master UI/UX design skills and principles.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://dribbble.com/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=dribbble.com"
+            />
+          </a>
+          <details>
+            <summary>UI/UX Inspiration Hub</summary>
+            <p>
+              Explore top design inspiration platforms:
+              <br /><br />
+
+              🔗 <a href="https://dev.to/">Dev.to</a><br />
+              🔗 <a href="https://dribbble.com/">Dribbble</a><br />
+              🔗 <a href="https://www.behance.net/">Behance</a><br />
+              🔗 <a href="https://screenlane.com/">Screenlane</a><br />
+              🔗 <a href="https://pagecollective.com/">PageCollective</a><br />
+              🔗 <a href="https://sitesee.co/">Sitesee</a><br />
+              🔗 <a href="https://www.awwwards.com/">Awwwards</a><br />
+              🔗 <a href="https://www.siteinspire.com/">SiteInspire</a><br />
+              🔗 <a href="https://onepagelove.com/">OnePageLove</a><br /><br />
+
+              These platforms showcase real-world UI/UX designs, case studies,
+              and award-winning websites to boost creativity and improve your
+              design skills.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.theodinproject.com/">
+            <img src="https://www.theodinproject.com/favicon-32x32.png" />
+          </a>
+          <details>
+            <summary>The Odin Project</summary>
+            <p>
+              Free full-stack web development curriculum with real projects.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/744/744922.png" />
+          </a>
+          <details>
+            <summary>Movie Box</summary>
+            <p>Explore and watch movies with a clean interface.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://quackr.io/">
+            <img src="https://quackr.io/favicon.ico" />
+          </a>
+          <details>
+            <summary>Quackr</summary>
+            <p>Get temporary phone numbers for OTP verification.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://cobalt.tools/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=cobalt.tools"
+            />
+          </a>
+          <details>
+            <summary>Cobalt Tool</summary>
+            <p>Download videos and media from multiple platforms easily.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://phototext.shop/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=phototext.shop"
+            />
+          </a>
+          <details>
+            <summary>PhotoText AI</summary>
+            <p>Convert images into editable text using AI.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://sobrief.com/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=sobrief.com"
+            />
+          </a>
+          <details>
+            <summary>SoBrief</summary>
+            <p>Get quick summaries of books and learn faster.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://earthengine.google.com/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=earthengine.google.com"
+            />
+          </a>
+          <details>
+            <summary>Google Earth Engine</summary>
+            <p>Analyze satellite data and environmental changes.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="#">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+            />
+          </a>
+          <details>
+            <summary>Stitch App Builder</summary>
+            <p>Create apps visually with minimal coding.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://careerkarma.com/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=careerkarma.com"
+            />
+          </a>
+          <details>
+            <summary>Career Karma</summary>
+            <p>Explore tech careers and learning paths.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://fakeupdate.net/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=fakeupdate.net"
+            />
+          </a>
+          <details>
+            <summary>Fake Update Screen</summary>
+            <p>Simulate fake OS updates for fun.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://tv.garden/">
+            <img src="https://tv.garden/favicon.ico" />
+          </a>
+          <details>
+            <summary>TV Garden</summary>
+            <p>Watch live TV channels worldwide.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://privnote.com/">
+            <img src="https://privnote.com/favicon.ico" />
+          </a>
+          <details>
+            <summary>PrivNote</summary>
+            <p>Send self-destructing private messages.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://koha.wtf/">
+            <img src="https://koha.wtf/favicon.ico" />
+          </a>
+          <details>
+            <summary>Koha WTF</summary>
+            <p>Fun experimental tools for developers.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://roadmap.sh/">
+            <img src="https://roadmap.sh/favicon.ico" />
+          </a>
+          <details>
+            <summary>Developer Roadmaps</summary>
+            <p>Step-by-step guides for different tech careers.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.site24x7.com/cheatsheet/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=site24x7.com"
+            />
+          </a>
+          <details>
+            <summary>Cheat Sheets</summary>
+            <p>Quick references for dev tools and concepts.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.vglist.nl/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=vglist.nl"
+            />
+          </a>
+          <details>
+            <summary>VGList</summary>
+            <p>Explore video game database and details.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://yoprintables.com/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=yoprintables.com"
+            />
+          </a>
+          <details>
+            <summary>YoPrintables</summary>
+            <p>Download printable templates and planners.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://quillbot.com/">
+            <img src="https://quillbot.com/favicon.ico" />
+          </a>
+          <details>
+            <summary>QuillBot</summary>
+            <p>AI writing assistant for paraphrasing and grammar.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://radio.garden/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=radio.garden"
+            />
+          </a>
+          <details>
+            <summary>Radio Garden</summary>
+            <p>Listen to live radio stations worldwide.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://leolabs.space/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=leolabs.space"
+            />
+          </a>
+          <details>
+            <summary>LeoLabs</summary>
+            <p>Track satellites and space objects in real-time.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a href="https://www.myretrotvs.com/">
+            <img
+              src="https://www.google.com/s2/favicons?sz=128&domain=myretrotvs.com"
+            />
+          </a>
+          <details>
+            <summary>MyRetroTVs</summary>
+            <p>Watch classic TV shows in retro style.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="sq">
+        <div class="data">
+          <a
+            href="https://dev.to/dailydevtips1/10-games-to-learn-javascript-155j"
+          >
+            <img src="https://dev.to/favicon.ico" />
+          </a>
+          <details>
+            <summary>JS Learning Games</summary>
+            <p>Learn JavaScript through interactive games.</p>
+          </details>
+        </div>
+      </div>
+
+      <!-- END -->
     </div>
     <a href="Home page.html" class="corbt">Back</a>
-</body>
+  </body>
 </html>
