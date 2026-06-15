@@ -64,16 +64,6 @@ git clone https://github.com/vipul07bit/Kodaris.git
 
 Or use VS Code with the Live Server extension.
 
-## 📸 Screenshots
-
-Add screenshots of your project here.
-
-Example:
-
-```md
-![Homepage](screenshots/homepage.png)
-```
-
 ## 📚 What I Learned
 
 While building this project, I learned:
